@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0px;
+}
+
+body {
+	background-image: url(../images/background3.png);
+	background-size: 100%;
+}
+
+h1 {
+	font-family: 'Just Another Hand', cursive;
+	color: black;
+	font-size: 60px;
+}
+
+.title, .players, .messages-panel {
+	background-image: url(../images/gplaypattern.png);
+	padding-bottom: 10px;
+}
+
+.player, .results{
+	background: white;
+}
+
+.messages-panel {
+	height: 190px;
+}
+
+.messages-print {
+	background: white;
+	height: 170px;
+	width: 435px;
+	margin: 10px;
+}
+
+#chat-input {
+	width: 350px;
+	text-align: left;
+}
+
+#name-input {
+	text-align: left;
+	color: gray;
+}
+
+.player, .results {
+	border: 2px solid black;
+	height: 200px;
+	width: 280px;
+	margin: auto;
+}
+
+.btn-default {
+	background: gray;
+	color: white;
+}
+
+.btn-default:hover {
+	outline: 0;
+	background: #E0FFFF;
+	color: black;
+}
